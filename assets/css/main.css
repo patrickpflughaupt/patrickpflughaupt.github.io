@@ -2109,6 +2109,34 @@ input, select, textarea {
 		-moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
 	}
 
+	.circular-blackrock {
+		width: 170px;
+		height: 170px;
+		border-radius: 170px;
+		-webkit-border-radius: 170px;
+		-moz-border-radius: 170px;
+		background: url("../../images/blackrock.png");
+		background-size: 100% 100%;
+		background-position: 0px 0px;
+		box-shadow: 0 0 8px rgb(0 0 0 / 80%);
+		-webkit-box-shadow: 0 0 8px rgb(0 0 0 / 80%);
+		-moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+	}
+
+	.circular-mckinsey {
+		width: 170px;
+		height: 170px;
+		border-radius: 170px;
+		-webkit-border-radius: 170px;
+		-moz-border-radius: 170px;
+		background: url("../../images/mckinsey.png");
+		background-size: 100% 100%;
+		background-position: 0px 0px;
+		box-shadow: 0 0 8px rgb(0 0 0 / 80%);
+		-webkit-box-shadow: 0 0 8px rgb(0 0 0 / 80%);
+		-moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+	}
+
 	.center-block {
 		display: block;
 		margin-right: auto;
