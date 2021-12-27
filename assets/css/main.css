@@ -2091,6 +2091,27 @@ input, select, textarea {
 
 /* Image */
 
+	.btn {
+		padding: 0.5rem;
+		font-size: .8rem;
+		line-height: .9;
+		border-radius: 0.3rem;
+	}
+
+	.btn-outline-primary {
+		color: white;
+		border-color: white;
+	}
+
+	.my-1 {
+		margin-bottom: 0.25rem!important;
+	}
+
+	.btn.btn-sm {
+		padding: 5px 0.4rem;
+		border-radius: 0.2rem;
+	}
+
 	.col-md-4 {
 		float: left;
 	}
