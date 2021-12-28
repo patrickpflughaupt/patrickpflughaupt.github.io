@@ -30,6 +30,7 @@
 										<li><a href="#education">Education</a></li>
 										<li><a href="#work-experience">Work Experience</a></li>
 										<li><a href="#publications">Publications</a></li>
+										<li><a href="#matrix-of-thoughts">Matrix of Thoughts</a></li>
 									</ul>
 								</div>
 							</li>
@@ -141,7 +142,7 @@
 						</div>			
 					</section>
 
-				<!-- One -->
+				<!-- Publication Section -->
 					<section id="publications" class="wrapper style2 special">
 						<div class="inner">
 							<header class="major">
@@ -162,6 +163,57 @@
 							</header>
 						</div>
 					</section>
+
+				<!-- Matrix of Thoughts Section -->
+				<section id="matrix-of-thoughts" class="wrapper style5 special">
+					<div class="inner">
+						<header class="major">
+							<h2>Matrix of Thoughts</h2>
+							<div class="mot-row">
+								<div class="mot-column">
+									<div class="mot-card">
+										<h3>The Tipping Point</h3>
+										<img src="images/mot-tippintpoint.jpeg">
+										<div style="text-align: center;">
+											<div style="display: inline-block; text-align: left;">
+												<p>
+													There comes a moment when ideas, trends and social behaviour cross a threshold and suddenly spread like an epidemic. 
+													What does it take to reach this tipping point? 
+												</p>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="mot-column">
+									<div class="mot-card">
+										<h3>Outliers</h3>
+										<img src="images/mot-outliers.png">
+										<div style="text-align: center;">
+											<div style="display: inline-block; text-align: left;">
+												<p>
+													What do most of us associate with the likes of Bill Gates, Joe Flom and The Beatles? 
+												</p>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="mot-column">
+									<div class="mot-card">
+										<h3>A potion of truth</h3>
+										<img src="images/mot-potion.png">
+										<div style="text-align: center;">
+											<div style="display: inline-block; text-align: left;">
+												<p>
+													I am now convinced that Google searches are the most important dataset ever collected on the human psyche, wrote the author of Everybody Lies. 
+												</p>
+											</div>
+										</div>
+									</div>
+								</div>							
+						</header>
+						<button id="mot-button" class="float-left submit-button">Read the Matrix of Thoughts</button>
+					</div>
+				</section>
 
 				<!-- Footer -->
 					<footer id="footer">
@@ -189,6 +241,10 @@
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
 			<script src="https://kit.fontawesome.com/13a86bc650.js" crossorigin="anonymous"></script>
-
+			<script type="text/javascript">
+				document.getElementById("mot-button").onclick = function () {
+					location.href = "matrix-of-thoughts.html";
+				};
+			</script>
 	</body>
 </html>

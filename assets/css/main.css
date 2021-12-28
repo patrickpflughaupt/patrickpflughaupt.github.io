@@ -284,6 +284,87 @@ input, select, textarea {
 		text-align: right;
 	}
 
+/* Matrix of Thoughts blog cards */
+  
+  /* Float four columns side by side */
+  .mot-column {
+	float: left;
+	width: 33.33333333333%;
+	padding: 0 30px;
+  }
+  
+  /* Remove extra left and right margins, due to padding in columns */
+  .mot-row {margin: 0 -80px;}
+  
+  /* Clear floats after the columns */
+  .mot-row:after {
+	content: "";
+	display: table;
+	clear: both;
+  }
+  
+  /* Style the counter cards */
+  .mot-card {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+	padding: 16px;
+	text-align: center;
+	background-color: #f1f1f1;
+  }
+
+  .mot-row .mot-column .mot-card img {
+	width: 100%;
+	margin-top: 8px;
+	vertical-align: middle;
+  }
+
+	/* Responsive columns - one column layout (vertical) on small screens */
+	@media screen and (max-width: 600px) {
+		.mot-column {
+			width: 100%;
+			display: block;
+			margin-bottom: 20px;
+		}
+	}
+
+/* Matrix of Thoughts website */
+
+  /* Float four columns side by side */
+  .mot-column-blogs {
+	width: 100%;
+	padding: 0 0px;
+  }
+  
+  /* Remove extra left and right margins, due to padding in columns */
+  .mot-row-blogs {margin: 0 0px;}
+  
+  /* Clear floats after the columns */
+  .mot-row-blogs:after {
+	content: "";
+	display: table;
+	clear: both;
+  }
+  
+  /* Style the counter cards */
+  .mot-card-blogs {
+	padding: 16px;
+  }
+
+  .mot-row-blogs .mot-column-blogs .mot-card-blogs img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 70%;
+  }
+
+	/* Responsive columns - one column layout (vertical) on small screens */
+	@media screen and (max-width: 600px) {
+		.mot-column-blogs {
+			width: 100%;
+			display: block;
+			margin-bottom: 50px;
+		}
+	}
+
 /* Row */
 
 	.row {
