@@ -284,6 +284,25 @@ input, select, textarea {
 		text-align: right;
 	}
 
+/* My profile pic */
+	.circular-pp {
+		width: 200px;
+		height: 200px;
+		border-radius: 200px;
+		-webkit-border-radius: 200px;
+		-moz-border-radius: 200px;
+		background: url("../../images/profile-pic.png");
+		background-size: 100% 100%;
+		background-position: 0px 0px;
+		box-shadow: 0 0 8px rgb(0 0 0 / 80%);
+		-webkit-box-shadow: 0 0 8px rgb(0 0 0 / 80%);
+		-moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+		display: block;
+		margin-right: auto;
+		margin-left: auto;
+	}
+  
+
 /* Matrix of Thoughts blog cards */
   
   /* Float four columns side by side */
