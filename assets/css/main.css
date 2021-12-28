@@ -294,7 +294,7 @@ input, select, textarea {
   }
   
   /* Remove extra left and right margins, due to padding in columns */
-  .mot-row {margin: 0 -80px;}
+  .mot-row {margin: 0 -20px;}
   
   /* Clear floats after the columns */
   .mot-row:after {
@@ -318,7 +318,7 @@ input, select, textarea {
   }
 
 	/* Responsive columns - one column layout (vertical) on small screens */
-	@media screen and (max-width: 600px) {
+	@media screen and (max-width: 900px) {
 		.mot-column {
 			width: 100%;
 			display: block;
@@ -357,7 +357,7 @@ input, select, textarea {
   }
 
 	/* Responsive columns - one column layout (vertical) on small screens */
-	@media screen and (max-width: 600px) {
+	@media screen and (max-width: 900px) {
 		.mot-column-blogs {
 			width: 100%;
 			display: block;
